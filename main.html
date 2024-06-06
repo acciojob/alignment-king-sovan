@@ -10,28 +10,28 @@
 	<!-- the entire body must be written by student -->
 	  <h2 style="text-align: center;">HTML Assignment #3</h2>
 
-    <table>
+    <table id="table-1" class="middle">
         <tr>
-            <td style="text-align: left;">left</td>
-            <td style="text-align: center;">center</td>
-            <td style="text-align: right;">right</td>
+            <td id="t11" style="text-align: left;">left</td>
+            <td id="t12" class="center" style="text-align: center;">center</td>
+            <td id="t13" class="right" style="text-align: right;">right</td>
+        </tr>
+        <tr class="center">
+            <td id="t14" style="text-align: left;">left</td>
+            <td id="t15" style="text-align: center;">center</td>
+            <td id="t16" class="right" style="text-align: right;">right</td>
         </tr>
         <tr>
-            <td style="text-align: left;">left</td>
-            <td style="text-align: center;">center</td>
-            <td style="text-align: right;">right</td>
-        </tr>
-        <tr>
-            <td style="text-align: left;">left</td>
-            <td style="text-align: center;">center</td>
-            <td style="text-align: right;">right</td>
+            <td id="t17" style="text-align: left;">left</td>
+            <td id="t18" class="center" style="text-align: center;">center</td>
+            <td id="t19" class="right" style="text-align: right;">right</td>
         </tr>
     </table>
 	<br>
 	<br>
-	<table>
+	<table id="table-2" class="middle">
         <tr>
-            <td colspan="6"></td>
+            <td id="t21" colspan="6"></td>
         </tr>
         <tr>
             <td></td>
@@ -72,13 +72,19 @@
 	<br>
 	<br>
 	
-    <div class="green-bar"></div>
-    <div class="image-container">
-        <div style="flex: 1;"></div>
-        <img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg" alt="Image">
-        <div style="flex: 1;"></div>
-    </div>
-    <div class="blue-bar"></div>
+    <table id="table-3" class="middle">
+        <tr class="green">
+            <td colspan="3"></td>
+        </tr>
+        <tr>
+            <td colspan="3" id="t-image">
+                <img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg" alt="Image">
+            </td>
+        </tr>
+        <tr class="blue">
+            <td colspan="3"></td>
+        </tr>
+    </table>
     <script type="text/javascript" src="./script.js">
 </script>
 

@@ -1,6 +1,7 @@
 table {
 	width: 100%;
     border-collapse: collapse;
+	padding: 1px
 }
 
 th, td {
@@ -10,23 +11,18 @@ th, td {
 	border-spacing:1px;
 }
       
-.green-bar {
+.green{
     background-color: green;
-    height: 50px;
+    height: 20px;
 }
 
-.blue-bar {
+.blue{
     background-color: blue;
-    height: 50px;
+    height: 20px;
 }
 
-.image-container {
+.t-image {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-     
-.image-container img {
-    width: 100%;
-    max-width: 400px;
 }
